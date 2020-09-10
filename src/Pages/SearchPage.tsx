@@ -47,12 +47,12 @@ const SearchPage: React.FC = () => {
                     <Col className="gutter-row" span={2}></Col>
                     <Col span={20}>
                         <br/>
-                        <p>Search for countries in which u want to see the COVID-19 statistic</p>
+                        <p>Type in the country name in which u want to see the COVID-19 statistic</p>
+                        <p> Change the select value to see the COVID-19 statistic history</p>
                         <SelectComponent handleChange={handleChange}/>
                         <Search onSearch={onSearch} />
-                        {/*<Search placeholder="input search text" style={{width:'400px'}} onSearch={onSearch} enterButton/>*/}
                         {typeRequest === 'history' && <Calendar handleChange={dateChange}/>}
-                        <p><b>{countryName}</b> statistics</p>
+                        <p>COVID-19 in <b>{countryName}</b> country statistics</p>
                     </Col>
                     <Col className="gutter-row" span={2}></Col>
                 </Row>

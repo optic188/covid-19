@@ -33,7 +33,7 @@ const Search = ({onSearch}:SearchProps)=> {
             onSearch={handleSearch}
 
         >
-            <Input.Search size="large" placeholder="input here" enterButton />
+            <Input.Search size="large" placeholder="Ukraine..." enterButton />
         </AutoComplete>
     )
 };
