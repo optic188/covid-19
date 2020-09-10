@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {Input,AutoComplete} from 'antd';
 import { getCountries} from '../api';
 type SearchProps = {

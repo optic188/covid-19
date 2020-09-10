@@ -36,7 +36,7 @@ const SearchPage: React.FC = () => {
     useEffect(() => {
         typeRequest === 'statistic' ? getStatistics(countryName, setcountries, setError) : getHistory(countryName, setcountries, setError, dateRequest)
 
-    }, [countryName, dateRequest]);
+    }, [countryName, dateRequest, typeRequest]);
 
     return (
         <Layout>

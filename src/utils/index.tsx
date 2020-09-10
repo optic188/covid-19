@@ -109,26 +109,6 @@ export const TableConfig = {
             key: '1M_pop',
         },
         {
-            title: 'Active',
-            dataIndex: 'active',
-            key: 'active',
-        },
-        {
-            title: 'Critical',
-            dataIndex: 'critical',
-            key: 'critical',
-        },
-        {
-            title: 'New',
-            dataIndex: 'new',
-            key: 'new',
-        },
-        {
-            title: 'Recovered',
-            dataIndex: 'recovered',
-            key: 'recovered',
-        },
-        {
             title: 'Total',
             dataIndex: 'total',
             key: 'total',
