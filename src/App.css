@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+.header {
+  background:#1890ff;
+}
+.header h1 {
+  color:white;
+}
+.content p {
+  margin-top:1em;
+}
+.ant-input-group .ant-input {
+  height: 32px;
+  font-size: 14px;
+}
+.ant-input-group-addon .ant-input-search-button {
+  height: 32px;
+}
+.anticon.anticon-search {
+  position: relative;
+  top:-3px;
+}
